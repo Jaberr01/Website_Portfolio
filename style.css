@@ -556,23 +556,55 @@ body {
     height: 70px;
 }
 
-.workXp .XP{
+.workXp .XP1, .XP2 {
     display: flex;
-    height: 300px;
+    height: 600px;
     border: 2px solid;
     border-image: linear-gradient(90deg, hwb(173 0% 50%), hwb(201 0% 55%)) 1;
 }
 
+.XP1 .xp_jobtitle, .XP2 .xp_jobtitle{
+    padding-bottom: 20px;
+}
 
-.workXp .XP img{
+.workXp .XP1 div, .workXp .XP2 div{
+    background-color: rgba(170, 255, 255, 0.5);
+    border: 3px solid black;
+    border-radius: var(--border-radius-s);
+}
+
+.workXp .XP1 .job-media1{
     margin-left: auto;
+    height: 300px;
+}
+
+.workXp .XP2 img{
+    margin-right: auto;
+}
+
+.workXp .xp_desc{
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.workXp .links{
+    padding-top: 10px;
+}
+
+.workXp .XP1 ul, .workXp .XP2 ul{
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.workXp .XP1 .myWork, .workXp .XP2 .myWork{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 20px;
 }
 
 
-/* .workXp .xp1, .workXp .xp3 {
-    background:  rgba(41, 179, 162,0.5);
-}
 
-.workXp .xp2, .workXp .xp4 {
-    background:  rgba(41, 204, 185,0.5);
-} */
+
+
+
+
