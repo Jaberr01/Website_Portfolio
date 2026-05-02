@@ -544,9 +544,19 @@ body {
 .workXp .xp3 .job-media1{
     margin-left: auto;
     height: 300px;
+    width: 400px;
 }
-
-
+.workXp .xp3 .roboVid{
+    display: flex;
+    justify-content: start;
+    border: 2px solid red;
+}
+.workXp .xp3 .job-media2{
+    height: 300px;
+    width: 400px;
+    justify-content: end;
+    /* border: 2px solid red; */
+}
 
 /* cert specific styles */
 .cert .hero-section{
