@@ -509,7 +509,6 @@ body {
 
 .workXp .links{
     padding-top: 20px;
-
 }
 
 .workXp .XP_s1 ul, .workXp .XP_s2 ul{
@@ -517,46 +516,65 @@ body {
     list-style: disc;
 }
 
+
+
+.workXp .xp1{
+    height: 500px;
+}
 .workXp .xp1 .job-media1{
     margin-left: auto;
-    height: 300px;
+    height: 250px;
 }
+
+
 
 .workXp .xp2{
     height: 750px;
 }
-
 .workXp .xp2 .job-media1{
     margin-right: auto;
     height: 300px;
 }
-
 .workXp .xp2 .job-media2{
     margin-right: auto;
     height: 450px;
     width:600px;
 }
-
 .workXp .xp2 .xp2-media{
     width: 1500px;
 }
+
+
 
 .workXp .xp3 .job-media1{
     margin-left: auto;
     height: 300px;
     width: 400px;
 }
-.workXp .xp3 .roboVid{
-    display: flex;
-    justify-content: start;
-    border: 2px solid red;
-}
 .workXp .xp3 .job-media2{
-    height: 300px;
+    height: 315px;
     width: 400px;
-    justify-content: end;
-    /* border: 2px solid red; */
 }
+.workXp .xp3 .btm_media{
+    display: inline-flex;
+    justify-content: center;
+}
+.workXp .xp3 {
+    height: 620px;
+}
+
+
+.workXp .xp4 .xp-media{
+    display: flex;
+    align-items: center;
+    background: rgb(164, 25, 46);
+}
+.workXp .xp4 .xp-media .job-media1{
+    height: 300px;
+    width: 900px;
+}
+
+
 
 /* cert specific styles */
 .cert .hero-section{
