@@ -354,81 +354,6 @@ body {
     to{translate: -100%;}
 }
 
-/* Certs Specific Styles */
-
-.certs {
-    position: relative;
-    text-align: left;
-    margin: 0 auto;
-
-}
-
-.certImgs {
-    position: absolute;
-    top: 0px;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 170px;
-
-}
-
-
-.cert1 img, .cert2 img {
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: var(--border-radius-s);
-
-}
-
-.cert3 {
-
-    position: relative;
-
-    background-color: #fff;
-    border-radius: var(--border-radius-s);
-
-    width: 400px;
-    height: 300px;
-    display: flex;
-    align-items: center;
-
-}
-
-.cert3 img {
-    position: absolute;
-    width: 50%;
-    top:65%;
-    transform: translate(50%,-50%);
-}
-
-.cert3Text {
-    position: absolute;
-    top: 20%;
-    text-align: center;
-    transform: translate(0%,-50%);
-    font-size: var(--font-size-xl);
-    font-weight: var(--font-weight-bold);
-    color: var(--black-color);
-}
-
-.certLink {
-    display: flex;
-    height: 303px;
-    position: relative;
-    transition: 0.3s ease;
-}
-
-.certLink:hover {
-    transform:
-    scale(1.1,1.1)
-    translate(0%,2%);
-    transition: 0.3s ease;
-}
-
 /* myEdu Specific Styles */
 .eduBody {
     position: relative;
@@ -455,7 +380,6 @@ body {
     border: 3px solid rgb(0, 50, 102);
     border-radius: var(--border-radius-s);
 }
-
 
 .eduElem .ubcLogo{
     position: relative;
@@ -536,8 +460,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* border: 3px solid red; */
-
 }
 
 .workXp .workXp-hero-section {
@@ -556,30 +478,23 @@ body {
     height: 70px;
 }
 
-.workXp .XP1, .XP2 {
+.workXp .XP_s1, .workXp .XP_s2 {
     display: flex;
     height: 600px;
     border: 2px solid;
     border-image: linear-gradient(90deg, hwb(173 0% 50%), hwb(201 0% 55%)) 1;
 }
 
-.XP1 .xp_jobtitle, .XP2 .xp_jobtitle{
-    padding-bottom: 20px;
-}
-
-.workXp .XP1 div, .workXp .XP2 div{
+.workXp .XP_s1 .all_text, .workXp .XP_s2 .all_text{
     background-color: rgba(170, 255, 255, 0.5);
     border: 3px solid black;
     border-radius: var(--border-radius-s);
+    font-size: var(--font-size-m);
+    padding-left: 5px;
 }
 
-.workXp .XP1 .job-media1{
-    margin-left: auto;
-    height: 300px;
-}
-
-.workXp .XP2 img{
-    margin-right: auto;
+.workXp .XP_s1 .xp_jobtitle, .workXp .XP_s2 .xp_jobtitle{
+    padding-bottom: 10px;
 }
 
 .workXp .xp_desc{
@@ -587,20 +502,120 @@ body {
     padding-left: 5px;
 }
 
-.workXp .links{
-    padding-top: 10px;
+.workXp .XP_s1 .myWork, .workXp .XP_s2 .myWork{
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
-.workXp .XP1 ul, .workXp .XP2 ul{
-    padding-left: 20px;
+.workXp .links{
+    padding-top: 20px;
+
+}
+
+.workXp .XP_s1 ul, .workXp .XP_s2 ul{
+    padding-left: 30px;
     list-style: disc;
 }
 
-.workXp .XP1 .myWork, .workXp .XP2 .myWork{
-    padding-top: 30px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+.workXp .xp1 .job-media1{
+    margin-left: auto;
+    height: 300px;
 }
+
+.workXp .xp2{
+    height: 750px;
+}
+
+.workXp .xp2 .job-media1{
+    margin-right: auto;
+    height: 300px;
+}
+
+.workXp .xp2 .job-media2{
+    margin-right: auto;
+    height: 450px;
+    width:600px;
+}
+
+.workXp .xp2 .xp2-media{
+    width: 1500px;
+}
+
+.workXp .xp3 .job-media1{
+    margin-left: auto;
+    height: 300px;
+}
+
+
+
+/* cert specific styles */
+.cert .hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+}
+.cert .certHero {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: start;
+    gap:50px;
+}
+
+.cert .boxes:not(.box3){
+    border-radius: var(--border-radius-s);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.cert .boxes{
+    transition: 0.3s ease;
+    width: 400px;
+    height: 300px;
+}
+
+.cert .boxes img:not(.box3 img){
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: var(--border-radius-s);
+}
+
+.cert .box3 {
+    display: flex;
+    background: white;;
+    align-items: center;
+    flex-direction: column;
+    border-radius: var(--border-radius-s);
+    justify-content: center;
+    text-align: center;
+}
+
+.cert .box3 img {
+    border-radius: var(--border-radius-s);
+    height: 200px;
+    margin-bottom: -10px;
+}
+
+.cert .box3 p {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--black-color);
+}
+
+.boxes:hover {
+    transform:
+    scale(1.1,1.1);
+    transition: 0.3s ease;
+}
+
+
+
+
 
 
 
