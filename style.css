@@ -564,12 +564,47 @@ body {
 }
 
 
+.workXp .xp4{
+    height: 500px;
+}
 .workXp .xp4 .xp-media{
     display: flex;
+    flex-direction: column;
     align-items: center;
     background: rgb(164, 25, 46);
 }
 .workXp .xp4 .xp-media .job-media1{
+    height: 200px;
+    width: 280px;
+}
+.workXp .xp4 .xp-media .job-media2{
+    margin-top: 20px;
+    width: 500px;
+}
+
+
+.workXp .xp5{
+    height: 470px;
+}
+.workXp .xp5 .xp-media{
+    display: flex;
+    align-items: center;
+    background: rgb(164, 25, 46);
+}
+.workXp .xp5 .xp-media .job-media1{
+    height: 300px;
+    width: 1200px;
+}
+
+.workXp .xp6{
+    height: 450px;
+}
+.workXp .xp6 .xp-media{
+    display: flex;
+    align-items: center;
+    background: rgb(164, 25, 46);
+}
+.workXp .xp6 .xp-media .job-media1{
     height: 300px;
     width: 900px;
 }
