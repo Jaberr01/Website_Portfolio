@@ -677,12 +677,63 @@ body {
 }
 
 
+/* Projects Specific Styles */
 
+.proj .proj-intro {
+    display: flex;
+    flex-direction: column;
+}
 
+.proj .proj-intro .proj-title{
+    padding-left: 10px;
+    padding-top: 10px;
+}
 
+.proj .proj-intro .proj-desc{
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: var(--font-size-l);
+}
 
+.proj .proj-hero {
+    height: 1000px;
+    background: rgb(222, 222, 255);
+    display: flex;
+    justify-content: center;
+}
 
+.proj .proj-hero .proj-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: start;
+    width: 100%;
+    padding-top: 50px;
+}
 
+.proj .proj-hero .proj-box{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    background: rgb(170, 255, 255);
+    border: 3px solid rgb(0, 50, 102);
+    border-radius: var(--border-radius-s);
+}
 
+.proj .proj-hero .proj-boxes .box2{
+    width: 350px;
+    height: 250px;
+}
 
+.proj .proj-hero .proj-boxes .box4{
+    width: 250px;
+    height: 250px;
+}
+
+.proj .proj-hero .proj-boxes .box6{
+    width: 400px;
+    height: 250px;
+}
 
