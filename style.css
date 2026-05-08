@@ -726,7 +726,39 @@ body {
 }
 
 .proj .col1 .box1, .proj .col2 .box4, .proj .col3 .box2 {
-    height: 200px;
+    height: 400px;
+}
+
+.proj .col1 .box1{
+    display: flex;
+    flex-direction: column;
+}
+.proj .col1 .box1 .all-imgs-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.proj .col1 .box1 .set1-imgs{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 5px;
+}
+
+.proj .col1 .box1 .set1-imgs .proj-img{
+    height: 75px;
+}
+
+
+.proj .col1 .box1 .set2-imgs{
+    display: flex;
+    height: 100px;
+    gap: 10px;
+}
+
+.proj .col1 .box1 .set3-imgs{
+    display: flex;
+    height: 100px;
 }
 
 .proj .col1 .box2, .proj .col2 .box1, .proj .col3 .box3 {
