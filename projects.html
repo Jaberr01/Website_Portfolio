@@ -47,26 +47,78 @@
             <div class="proj-boxes">
                 <div class="col1 proj-col">
                     <div class="box1 proj-box" tabindex="0">
-                        <h3>Homography RANSAC</h3>
-                        <div class="all-imgs-box">
-                            <div class="set1-imgs">
-                                <img src="projects/proj1/im1.jpg" alt="Image 1" class="proj-img">
-                                <img src="projects/proj1/im2.jpg" alt="Image 2" class="proj-img">
+                        <h3 class="title">Homography RANSAC</h3>
+                        <div class="content">
+                            <div class="desc">
+                                <p>This project involved implementing the RANSAC algorithm
+                                    to estimate a homography matrix between two sets of points.
+                                    The algorithm was used to find the best fit homography that maps
+                                    points from one image to another. The steps involved are:
+                                </p>
+                                <ol>
+                                    <li>Use SIFT algorithm to detect and describe keypoints in both images</li>
+                                    <li>Match the keypoints between the two images using the SIFT descriptors</li>
+                                    <li>Compute the homography matrix using the selected point</li>
+                                    <li>Calculate RMS as performance/accuracy metric</li>
+                                    <li>Repeat the process for a specified number of iterations (found using
+                                        RANSAC algorithm) and keep the best homography with the most inliers</li>
+                                </ol>
+                                <div class="link">
+                                    <a href="https://github.com/Jaberr01/HomographyRANSAC" target="_blank">Github Repository Link</a>
+                                </div>
+
                             </div>
-                            <div class="set2-imgs">
-                                <img src="projects/proj1/imMatch.jpg" alt="Image Match" class="proj-img">
-                            </div>
-                            <div class="set3-imgs">
-                                <img src="projects/proj1/imMerge.jpg" alt="Image Merge" class="proj-img">
+                            <div class="all-imgs-box">
+                                <div class="set1-imgs">
+                                    <img src="projects/proj1/im1.jpg" alt="Image 1" class="proj-img">
+                                    <img src="projects/proj1/im2.jpg" alt="Image 2" class="proj-img">
+                                </div>
+                                <div class="set2-imgs">
+                                    <img src="projects/proj1/imMatch.jpg" alt="Image Match" class="proj-img">
+                                </div>
+                                <div class="set3-imgs">
+                                    <img src="projects/proj1/imMerge.jpg" alt="Image Merge" class="proj-img">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="box2 proj-box" tabindex="0"> </div>
+                    <div class="box2 proj-box" tabindex="0">
+                        <div class="title">
+                            <h3>Finite Element Method GUI</h3>
+                        </div>
+                        <div class="content">
+                            <div class="desc">
+                                <p>This project involved creating a graphical user interface (GUI)
+                                     for the Finite Element Method (FEM) on MATLAB. The GUI allows
+                                     users to input parameters, visualize the mesh/truss, and analyze the
+                                     results of FEM simulations. The main features of the GUI include:</p>
+                                <ol>
+                                    <li class="list1">Truss/Mesh visualization</li>
+                                    <li class="list1">Input parameters for FEM simulations:</li>
+                                        <ol class="list2">
+                                            <li>Force Magnitude and Direction</li>
+                                            <li>Link length and nodes</li>
+                                            <li>Number of links and nodes</li>
+                                            <li>Node and Fixture locations</li>
+                                            <li>Young's Modulus and Cross-sectional Area</li>
+                                        </ol>
+                                        <li class="list1">Visualization of simulation results</li>
+                                    <li class="list1">User-friendly interface for easy navigation</li>
+                                </ol>
+                                <div class="link">
+                                    <a href="https://github.com/Jaberr01/FEM-GUI" target="_blank">Github Repository Link</a>
+                                </div>
+                            </div>
+                            <div class="all-imgs-box">
+                                <img src="projects/proj2/FEM.png" alt="FEM GUI" class="proj-img">
+                            </div>
+                        </div>
+                    </div>
                     <div class="box3 proj-box" tabindex="0"> </div>
                     <div class="box4 proj-box" tabindex="0"> </div>
                 </div>
                 <div class="col2 proj-col">
-                    <div class="box1 proj-box" tabindex="0"> </div>
+                    <div class="box1 proj-box" tabindex="0"></div>
                     <div class="box2 proj-box" tabindex="0"> </div>
                     <div class="box3 proj-box" tabindex="0"> </div>
                     <div class="box4 proj-box" tabindex="0"> </div>
