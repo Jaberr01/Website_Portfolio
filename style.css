@@ -835,24 +835,19 @@ body {
     padding-bottom: 10px;
     font-size: 0.65rem;
 }
-
-
 .proj .col1 .box2 .content ol:not(.list2){
     padding-left: 10px;
     padding-top: 10px;
     list-style: disc;
 }
-
 .proj .col1 .box2 .content .list1{
     list-style: disc;
     padding-top: 5px;
 }
-
 .proj .col1 .box2 .content .list2{
     list-style: disc;
     padding-left: 50px;
 }
-
 .proj .col1 .box2 .content .link{
     padding-left: 10px;
     padding-top: 20px;
@@ -860,4 +855,180 @@ body {
 
 }
 
+.proj .col2 .box1{
+    display: flex;
+    flex-direction: column;
+}
+.proj .col2 .box1 .title{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.proj .col2 .box1 .content{
+    display: flex;
+    padding-top: 10px;
+}
+.proj .col2 .box1 .content .desc{
+    padding-left: 10px;
+    padding-top: 20px;
+    font-size: 0.7rem;
+    width:300px;
+}
+.proj .col2 .box1 .content ol{
+    padding-top: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
 
+.proj .col2 .box1 .content .all-imgs-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    width: 300px;
+    margin-top:-40px;
+}
+
+.proj .col2 .box2{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+.proj .col2 .box2 .title{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.proj .col2 .box2 .content{
+    display: flex;
+    padding-top: 10px;
+}
+.proj .col2 .box2 .content .desc{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: 0.7rem;
+    width:400px;
+}
+.proj .col2 .box2 .content ol{
+    padding-top: 20px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.proj .col2 .box2 .content .all-imgs-box{
+    padding-top: 20px;
+    display: flex;
+    margin-top: auto;
+}
+.proj .col2 .box2 .content .all-imgs-box img{
+    object-fit: cover;
+    width: 250px;
+    margin-left: auto;
+}
+.proj .col2 .box2 .content .all-imgs-box video{
+    margin-right: auto;
+    object-fit: cover;
+    width: 400px;
+}
+
+
+.proj .col3 .box1{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.proj .col3 .box1 .title{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.proj .col3 .box1 .content{
+    display: flex;
+    padding-top: 10px;
+}
+.proj .col3 .box1 .desc{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 0.65rem;
+}
+.proj .col3 .box1 .desc ol{
+    padding-top: 10px;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.proj .col3 .box1 .desc li{
+    padding-bottom: 4px;
+}
+
+.proj .col3 .box1 .all-imgs-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.proj .col3 .box2{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.proj .col3 .box2 .title{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.proj .col3 .box2 .content{
+    display: flex;
+    padding-top: 10px;
+}
+.proj .col3 .box2 .desc{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 0.65rem;
+}
+.proj .col3 .box2 .desc ol{
+    padding-top: 10px;
+    list-style: disc;
+    list-style-position: inside;
+}
+
+.proj .col3 .box2 .desc li{
+    padding-bottom: 4px;
+}
+
+.proj .col3 .box2 .all-imgs-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    object-fit: cover;
+}
+
+.proj .col3 .box2 .bottom_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proj .col3 .box2 .bottom_img img{
+    height:300px;
+    width: 450px;
+}
+
+/* Skills Specific Styles */
+
+.sklz .sklz-intro{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.sklz .sklz-intro .intro-desc{
+    padding-top: 10px;
+    font-size: x-large;
+}
+.sklz .sklz-section{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
