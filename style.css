@@ -20,13 +20,13 @@
     --color_7: #2a9d8f;
 
     /*Font Sizes*/
-    --font-size-s: 0.9rem;
-    --font-size-n: 1rem;
+    --font-size-s: 0.9vw;
+    --font-size-n: 1vw;
     --font-size-m: 1.2vw;
-    --font-size-l: 1.5rvw;
+    --font-size-l: 1.5vw;
     --font-size-xl: 2vw;
-    --font-size-xxl: 2.5rem;
-    --font-size-xxxl: 3rem;
+    --font-size-xxl: 2.5vw;
+    --font-size-xxxl: 3vw;
 
 
     /*Font Weights*/
@@ -67,9 +67,8 @@ img {
 
 /*Navba*/
 header {
-    position: realtive;
-    top: 0;
-    left: 0;
+    position: relative;
+
     width: 100%;
     background: var(--primary-color);
 }
@@ -95,15 +94,20 @@ header .navbar {
 
 .navbar .nav-menu {
     display: flex;
-    gap: 30px;
+    gap: 3vw;
 }
 
 .navbar .nav-menu .nav-link {
-    padding: 10px 18px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: 0.5vw;
+    padding-top: 0.5vw;
+
     color: var(--secondary-color);
     font-size: var(--font-size-m);
     border-radius: var(--border-radius-m);
     transition: 0.3s ease;
+
 }
 
 .navbar .nav-menu .nav-link:hover {
@@ -116,56 +120,54 @@ body {
     overflow-x: hidden;  /* prevents horizontal scroll */
     overflow-y: auto;
     background: linear-gradient(135deg,hsl(173, 59%, 60%),hsl(201, 100%, 30%));
+    overflow: hidden;
 
 }
 
-.home {
+.homeBody {
     z-index: -1;
-    height: 100%;
+    height: 100vh;
+
 }
 
 .hero-section {
-    padding-top: 150px;
     width: 100%;
     color: #000;
-    height: 87vh;
+    height: 85vh;
 }
 
 .section-content{
-    max-width: var(--site-max-width);
+    width: 100vw;
     margin: 0 auto;
-    padding: 10px 10px;
-
 }
 
 .hero-details {
-    flex-direction: column;
+    margin-top: 5vw;
+    display: flex;
     align-items: center;
-    gap: 20px;
-    text-align: center;
-
+    width: 100vw;
 }
 
 .hero-img {
-    position: absolute;
-    top: 200px;
-    left: 850px;
-    overflow: hidden;
+    margin-left: auto;
+    margin-right: 2vw;
+
 }
 
 .hero-details .hero-img .profile-image {
-
-    width: 600px;
-    height: 500px;
+    width: 40vw;
+    height: 35vw;
     border-radius: var(--border-radius-m);
     object-fit: cover;
+
 
 }
 
 .hero-details .hero-text {
-    max-width: 650px;
+    margin-bottom: 8vw;
+    margin-left: 1vw;
+    width: 50vw;
     text-align: left;
-    padding-top: 50px;
 }
 
 .hero-text .hero-title {
@@ -177,7 +179,7 @@ body {
 .hero-text .hero-description {
     font-size: var(--font-size-xl);
     color: var(--black-color);
-    padding-top: 100px;
+    padding-top: 5vw;
 }
 /* About Me Specific Styles */
 
