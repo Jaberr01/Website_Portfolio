@@ -22,9 +22,9 @@
     /*Font Sizes*/
     --font-size-s: 0.9rem;
     --font-size-n: 1rem;
-    --font-size-m: 1.2rem;
-    --font-size-l: 1.5rem;
-    --font-size-xl: 2rem;
+    --font-size-m: 1.2vw;
+    --font-size-l: 1.5rvw;
+    --font-size-xl: 2vw;
     --font-size-xxl: 2.5rem;
     --font-size-xxxl: 3rem;
 
@@ -77,7 +77,7 @@ header {
 header .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 25px 40px;
+    padding: 2% 4%;
     align-items: center;
 }
 
