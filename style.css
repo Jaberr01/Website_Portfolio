@@ -117,11 +117,9 @@ header .navbar {
 
 /* BODY */
 body {
-    overflow-x: hidden;  /* prevents horizontal scroll */
+    /* overflow-x: hidden;  prevents horizontal scroll */
     overflow-y: auto;
     background: linear-gradient(135deg,hsl(173, 59%, 60%),hsl(201, 100%, 30%));
-    overflow: hidden;
-
 }
 
 .homeBody {
@@ -159,8 +157,6 @@ body {
     height: 35vw;
     border-radius: var(--border-radius-m);
     object-fit: cover;
-
-
 }
 
 .hero-details .hero-text {
@@ -1029,6 +1025,7 @@ body {
     padding-top: 10px;
     font-size: x-large;
 }
+
 .sklz .sklz-section{
     display: flex;
     flex-direction: column;
