@@ -128,7 +128,6 @@ html {
 
 .hero-section {
     width: 100%;
-    color: #000;
 }
 
 .section-content{
@@ -612,8 +611,7 @@ html {
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
-    margin-bottom: 10vh;
-
+    margin-bottom: 20vh;
 }
 .cert .certHero {
     display: inline-flex;
@@ -634,12 +632,12 @@ html {
 .cert .boxes{
     transition: 0.3s ease;
     width: 30vw;
-    height: 40vh;
+    height: 20vw;
 }
 
 .cert .boxes img:not(.box3 img){
     width: 30vw;
-    height: 40vh;
+    height: 20vw;
     object-fit: cover;
     border-radius: var(--border-radius-s);
 }
