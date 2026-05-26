@@ -182,7 +182,7 @@ html {
 .carousel {
     display: flex;
     position: absolute;
-    top: 650px;
+    top: 43vw;
     margin: 100px auto;
     width: 100%;
     justify-content: center;
@@ -197,17 +197,15 @@ html {
 .group {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 1vw;
     animation: spin 15s linear infinite;
-    padding-right: 1em;
-
-
+    padding-right: 1vw;
 }
 
 .v1, .v2, .v3, .v4, .v5, .v6 {
     flex: 0 0 auto;
-    height: 7em;
-    width: 7em;
+    height: 20vw;
+    width: 20vw;
     background: rgb(255, 255, 255);
     font-size: 3rem;
     border-radius: 5px;
@@ -298,49 +296,50 @@ html {
 
 .aboutMeText{
     position: absolute;
-    top: 100px;
-    left: 50px;
+    top: 8vw;
+    left: 5vw;
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-m);
     color: var(--black-color);
-    /* margin-right: 800px; */
-    max-width: 500px;
+    max-width: 50vw;
 }
 
 .aboutMeList {
     position: absolute;
-    top: 200px;
-    left: 50px;
+    top: 12vw;
+    left: 5vw;
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-m);
     color: var(--black-color);
     list-style: disc;
-    padding-left: 40px;
+    list-style-position: inside;
 }
-
 
 .aboutMeText2{
     position: absolute;
-    top: 400px;
-    left: 50px;
+    top: 25vw;
+    left: 5vw;
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-m);
     color: var(--black-color);
-    /* margin-right: 800px; */
-    max-width: 600px;
+    max-width: 40vw;
 }
 
 .EulerDiagram{
     position: absolute;
-    top: 50px;
-    right: 150px;
-    width: 500px;
-    height: 500px;
+    top: 3vw;
+    right: 10vw;
+    width: 30vw;
+    height: 30vw;
+}
+
+.EulerDiagram .overlay{
+    font-size: var(--font-size-s);
 }
 
 .EulerDiagram img {
-    width: 500px;
-    height: 500px;
+    width: 30vw;
+    height: 30vw;
 }
 
 @keyframes spin{
