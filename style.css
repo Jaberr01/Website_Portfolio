@@ -204,8 +204,8 @@ html {
 
 .v1, .v2, .v3, .v4, .v5, .v6 {
     flex: 0 0 auto;
-    height: 20vw;
-    width: 20vw;
+    height: 23vw;
+    width: 23vw;
     background: rgb(255, 255, 255);
     font-size: 3rem;
     border-radius: 5px;
@@ -430,8 +430,8 @@ html {
 
 .EngBoxes .list{
     position: relative;
-    top: 20px;
-    left: 30px;
+    top: 5vw;
+    left: 15vw;
     font-size: var(--font-size-m);
     list-style: disc;
     width: 200px;
