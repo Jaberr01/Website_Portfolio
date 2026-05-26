@@ -117,7 +117,7 @@ header .navbar {
 
 /* BODY */
 body {
-    /* overflow-x: hidden;  prevents horizontal scroll */
+    overflow-x: hidden;
     overflow-y: auto;
     background: linear-gradient(135deg,hsl(173, 59%, 60%),hsl(201, 100%, 30%));
 }
