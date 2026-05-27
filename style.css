@@ -983,6 +983,7 @@ html {
 .proj .col3 .box2 .bottom_img img{
     height:18vw;
     width: 32vw;
+    border: 2px solid red;
 }
 
 /* Skills Specific Styles */
