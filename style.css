@@ -986,26 +986,66 @@ html {
 }
 
 /* Skills Specific Styles */
+.sklz-bdy{
+    height: 100vh;
+}
 
 .sklz .sklz-intro{
     display: flex;
     flex-direction: column;
-    height: 100px;
-    padding-left: 10px;
-    padding-top: 10px;
+    height: 6vw;
+    padding-left: 0.6vw;
+    padding-top: 0.6vw;
+    font-size: var(--font-size-m);
+
 }
 .sklz .sklz-intro .intro-desc{
-    padding-top: 10px;
-    font-size: x-large;
+    padding-top: 0.6vw;
+    font-size: var(--font-size-l);
 }
 
 .sklz .sklz-section{
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1vw;
+    margin-top: 3vw;
+    /* height: 50vh; */
+}
+
+.sklz .sklz-section .sklz-cols{
+    display: flex;
+    align-items: center;
     flex-direction: column;
+    gap: 1vw;
+    width: 28vw;
+    background: rgb(91, 195, 199);
+    border: 0.1vw solid rgb(0, 50, 102);
+    border-radius: var(--border-radius-s);
 }
 
-.sklz-bdy{
-    /* min-height: 100%; */
-    height: 100vh;
-
+.sklz .sklz-section .sklz-cols .sklz-title{
+    /* padding-left: 0.6vw; */
+    padding-top: 0.6vw;
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
 }
+.sklz .sklz-section .sklz-cols .list-container{
+    margin-right: auto;
+    width: 25vw;
+    padding-bottom: 1vw;
+}
+.sklz .sklz-section .sklz-cols .list{
+    padding-left: 2vw;
+    padding-top: 0.2vw;
+    list-style: disc;
+    list-style-position: inside;
+    font-size: var(--font-size-l);
+}
+.sklz .sklz-section .sklz-cols .list li{
+    padding-top: 0.6vw;
+}
+
+
+
+
