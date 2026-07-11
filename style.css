@@ -893,7 +893,7 @@ html {
 .proj .col3 .box1{
     display: flex;
     flex-direction: column;
-    height: 15vw;
+    height: 27vw;
 }
 
 .proj .col3 .box1 .content{
@@ -915,7 +915,16 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18vw;
+}
+
+.proj .col3 .box1 .all-imgs-box .proj-img2{
+
+    width: 10vw;
+}
+
+.proj .col3 .box1 .all-imgs-box .proj-img{
+
+    width: 25vw;
 }
 
 .proj .col3 .box3{
